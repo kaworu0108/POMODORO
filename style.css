@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+}
+
+#left {
+    width: 830px;
+    height: 800px;
+    background: #FFEDF7;
+    float: left;
+}
+
+#right {
+    width: 450px;
+    height: 800px;
+    background: #003164;
+    float: right;
+}
+
+.leftsearch {
+    width: 445px;
+    height: 56px;
+    font-size: 16px;
+    color: #FF4384;
+    position: absolute;
+    top: 48px;
+    left: 85px;
+    display: block;
+}
+
+.bigbox {
+    margin-left: 85px;
+    position: absolute;
+    top: 249px;
+}
+
+.contentbig {
+    color: #003164;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.maru {
+    width: 48px;
+    height: 48px;
+    border-radius: 999em;
+    background-color: #FFEDF7;
+    border: 2px solid #003164;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.title {
+    color: #FF4384;
+    font-size: 176px;
+    text-align: center;
+    width: 454px;
+    height: 206px;
+    font-weight: bold;
+    position: absolute;
+    top: 297px;
+    margin-left: 80px;
+}
+
+.marusmall {
+    width: 24px;
+    height: 24px;
+    border-radius: 999em;
+    background-color: #FFEDF7;
+    border: 2px solid #003164;
+    display: inline-block;
+}
+
+.contentsmall {
+    display: inline-block;
+    width: 251px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.more {
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+    color: #FF4384;
+    position: absolute;
+    top: 733px;
+    margin-left: 486px;
+    padding-top: 9px;
+}
+
+.contentbox {
+    width: 445px;
+    height: 32px;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    padding-bottom: 10px;
+    margin-left: 85px;
+    position: absolute;
+    top: 610px;
+}
+
+.contentbox2 {
+    width: 445px;
+    height: 32px;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    padding-bottom: 10px;
+    margin-left: 85px;
+    position: absolute;
+    top: 651px;
+}
+
+.contentbox3 {
+    width: 445px;
+    height: 32px;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    padding-bottom: 10px;
+    margin-left: 85px;
+    position: absolute;
+    top: 692px;
+}
+
+.POMODORO {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 587px;
+    margin-right: 85px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.cycle {
+    width: 540px;
+    height: 540px;
+    border-radius: 999em;
+    border: 4px solid #FF4384;
+    display: flex;
+    position: absolute;
+    top:130px;
+    left:560px;
+    
+}
+.cycle1{
+    width: 500px;
+    height: 500px;
+    border-radius: 999em;
+   background: #FF4384;
+    display: flex;
+    position: absolute;
+    top:130px;
+    left:560px;
+}
