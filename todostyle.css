@@ -270,3 +270,7 @@
     left: 212px;
     z-index: 999;
 }
+
+.close:hover {
+    background: url(img/baseline_close_gray_48dp.png);
+}

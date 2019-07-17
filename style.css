@@ -29,7 +29,7 @@
     }
     
     .leftsearch {
-        width: 405px;
+        width: 350px;
         height: 24px;
         font-size: 16px;
         color: #FF4384;
@@ -45,12 +45,12 @@
     
     .addsubmit {
         width: 40px;
-        height: 40px;
+        height: 45px;
         color: #FF4384;
         background: white;
-        position: fixed;
+        position: relative;
         top: 48px;
-        left: 490px;
+        left: 90px;
         border: 0px none white;
         font-size: 2rem;
         display: inline-block;
@@ -155,8 +155,9 @@
     
     .POMODORO {
         writing-mode: vertical-rl;
-        position: absolute;
+        position: relative;
         top: 587px;
+        left: 400px;
         margin-right: 85px;
         font-size: 24px;
         color: #FFFFFF;
@@ -229,4 +230,19 @@
         top: 216px;
         left: 1159px;
         background-size: contain;
+    }
+    
+    .icons1:hover {
+        background: url(img/list_white_48dp.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icons2:hover {
+        background: url(img/chart_white_36.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icons3:hover {
+        background: url(img/library_music_36.png);
+        background-repeat: no-repeat;
     }
